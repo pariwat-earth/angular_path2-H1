@@ -1,0 +1,18 @@
+.contaner{
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.bot{
+  background-color: red;
+  color: aliceblue;
+  font-size: 12px;
+  border: 10px;
+  padding: 10px;
+}
+.bot:hover{
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}

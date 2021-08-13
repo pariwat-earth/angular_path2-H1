@@ -1,0 +1,22 @@
+<div class="contaner">
+
+  <p>My Task today</p>
+
+  <app-task *ngFor="let tasks of task" [taskObj]="tasks"
+  (deleteTask)="deletetask($event)"></app-task>
+
+  <div class="new-task">
+    <p>Add Task </p>
+
+    <div class="inputtho">
+      Name: <input type="text" [(ngModel)]="taskName">
+    </div>
+
+    <div class="inputtho">
+      Descripton: <input type="text" [(ngModel)]="taskDescription">
+    </div>
+
+    <button class = "ButAdd"(click)="addTask()">Add</button>
+  </div>
+
+</div>

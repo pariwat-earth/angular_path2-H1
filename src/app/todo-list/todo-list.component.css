@@ -1,0 +1,27 @@
+.new-task{
+  border: 1px solid black;
+  padding: 10px;
+}
+.contaner{
+  border: 1px solid black;
+  width: 40%;
+  padding: 10px;
+}
+.ButAdd{
+  background-color: rgb(86, 224, 51);
+  color: white;
+  font-size: 12px;
+  width: 60px;
+  margin: 10px;
+  border: 0px;
+  padding: 10px;
+}
+.inputtho{
+  margin: 10px;
+}
+
+.ButAdd:hover{
+  background-color: white;
+  color: rgb(86, 224, 51);
+  border: 1px solid rgb(86, 224, 51);
+}
